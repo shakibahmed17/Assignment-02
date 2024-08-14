@@ -33,7 +33,7 @@ body {
     padding: 0.50rem;
 }
 
-.nav-items > li {
+.nav-items>li {
     text-decoration: none;
     list-style: none;
     font-size: 1.3rem;
@@ -41,7 +41,7 @@ body {
     margin-left: 1.5rem;
 }
 
-.nav-items > li a {
+.nav-items>li a {
     text-decoration: none;
     color: white;
 }
@@ -207,7 +207,7 @@ body {
 }
 
 .habit-section-description {
-    color:white;
+    color: white;
     font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 60px;
@@ -291,7 +291,7 @@ body {
     font-size: 1.1rem;
     font-weight: 400;
     text-align: left;
-    
+
 }
 
 .join-now-btn {
@@ -308,7 +308,7 @@ body {
 .calculator-container {
     max-width: 100%;
     margin: 0 auto;
-   
+
 }
 
 .calculator-content {
@@ -335,7 +335,7 @@ body {
     gap: 180px;
     margin-top: 50px;
     margin-bottom: 100px;
-    
+
 }
 
 .calculator-table {
@@ -413,5 +413,82 @@ form select {
     border-radius: 50px;
     background-color: orangered;
     cursor: pointer;
+}
+
+.team-container {
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    padding: 0 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.team-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.team-title {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.team-description {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 100px;
+
+}
+
+.members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.member {
+    width: 100%;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.team-img img {
+    object-fit: cover;
+    width: 330px;
+    height: 270px;
+    border-radius: 20px;
+}
+
+
+.team-name {
+    position: relative;
+    color: white;
+    top: -110px;
+    right: 0px;
+}
+
+.trainer {
+    color: rgba(255, 255, 255, 0.8);
 }
 
