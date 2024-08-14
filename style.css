@@ -247,3 +247,61 @@ body {
     text-align: center;
 }
 
+.run-container {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: rgb(35, 35, 35);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 180px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.run-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 3rem;
+}
+
+.run-image {
+    width: 50%;
+    padding: 2rem;
+}
+
+.run-image img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.run-title {
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.run-description {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: left;
+    
+}
+
+.join-now-btn {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+    padding: 12px 30px 12px 30px;
+    border: 1.5px solid white;
+    border-radius: 50px;
+    background-color: orangered;
+    cursor: pointer;
+}
+
