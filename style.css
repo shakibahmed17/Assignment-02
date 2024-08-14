@@ -492,3 +492,90 @@ form select {
     color: rgba(255, 255, 255, 0.8);
 }
 
+footer {
+    background-color: rgb(35, 35, 35);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.logo-part,
+.first-list,
+.second-list {
+    max-width: 35%;
+}
+
+.footer-logo {
+    color: orangered;
+    font-size: 3.5rem;
+    font-weight: 800;
+    padding-bottom: 1.5rem;
+}
+
+.footer-description {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 3.5rem;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.footer-menu > li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1rem;
+}
+
+.footer-menu>li a,
+.get-started>li a {
+    text-decoration: none;
+    color: white;
+}
+
+.get-started {
+    font-size: 2rem;
+    color: white;
+    font-weight: 800;
+}
+
+.get-started>li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1.2rem;
+}
+
+.get-started>li a {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.copyright {
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
