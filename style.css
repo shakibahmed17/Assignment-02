@@ -6,8 +6,6 @@ body {
 }
 
 .header-container {
-    margin-left: 10%;
-    margin-right: 10%;
     padding-top: 3rem;
 }
 
@@ -329,6 +327,15 @@ body {
     margin-bottom: 100px;
 }
 
+.from-group > label {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.from-group > select {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
 .main-calculator {
     display: flex;
     justify-content: space-between;
