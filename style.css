@@ -327,15 +327,11 @@ body {
     margin-bottom: 100px;
 }
 
-.from-group > label {
-    margin-top: 1px;
-    margin-bottom: 1px;
+.cal-gap {
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
-.from-group > select {
-    margin-top: 1px;
-    margin-bottom: 1px;
-}
 .main-calculator {
     display: flex;
     justify-content: space-between;
