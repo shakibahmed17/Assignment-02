@@ -6,6 +6,8 @@ body {
 }
 
 .header-container {
+    margin-left: 10%;
+    margin-right: 10%;
     padding-top: 3rem;
 }
 
@@ -105,7 +107,7 @@ body {
     font-size: 1.2rem;
     color: white;
     font-weight: 500;
-    padding: 12px 30px 12px 30px;
+    padding: 8px 15px 8px 15px;
     border: 1.5px solid white;
     border-radius: 50px;
     background-color: transparent;
@@ -116,7 +118,7 @@ body {
     font-size: 1.2rem;
     color: white;
     font-weight: 500;
-    padding: 12px 30px 12px 30px;
+    padding: 8px 15px 8px 15px;
     border: 1.5px solid white;
     border-radius: 50px;
     background-color: orangered;
@@ -256,8 +258,8 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 180px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .run-content {
@@ -307,7 +309,8 @@ body {
 
 .calculator-container {
     max-width: 100%;
-    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
 
 }
 
@@ -395,11 +398,12 @@ form select {
     border-radius: 1rem;
     border: 0;
     background-color: rgba(255, 255, 255, 0.1);
-    width: 18rem;
+    width: 20rem;
     margin-left: 8px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
 }
+
 
 .select-last {
     width: 95%;
